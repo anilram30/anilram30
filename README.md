@@ -5,6 +5,19 @@ Looking for a **Werkstudent** position in control, estimation or embedded system
 
 📍 Nürnberg, Germany  ·  📧 [sreeramanil30@gmail.com](mailto:sreeramanil30@gmail.com)
 
+
+---
+
+## estkit
+
+A header-only C++17 library and benchmark of **86 state estimators and observers** for battery-management systems in electric aircraft, with aerospace attitude-estimation heritage. Every algorithm is an original implementation from its primary publication, embedded-safe by construction (no heap, no exceptions, float32-ready, Cortex-M7 verified in CI), and cross-validated against FilterPy, PyBaMM and ahrs.
+
+**Repo:** [estkit](https://github.com/anilram30/estkit)  ·  **Site:** [anilram30.github.io/estkit](https://anilram30.github.io/estkit/)  ·  **Report:** 958 pages, one chapter per estimator
+
+`86 estimators · 12 families · 2 truth plants · 12 fault scenarios · ~9,000 benchmark runs · 0 runtime dependencies`
+
+Code Apache 2.0, report and data CC BY 4.0.
+
 ---
 
 ## HF cable toolchain
@@ -22,18 +35,6 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 | **E** | [cableanalytics](https://github.com/anilram30/cableanalytics) | Production records → predicted electrical performance |
 | **F** | [labplatform](https://github.com/anilram30/labplatform) | Multi-site metrology, uncertainty budgets, drift detection |
 | **G** | [linktwin](https://github.com/anilram30/linktwin) | Full-link digital twin — pass/fail, eye at receiver, probability of passing |
-
----
-
-## estkit
-
-A header-only C++17 library and benchmark of **86 state estimators and observers** for battery-management systems in electric aircraft, with aerospace attitude-estimation heritage. Every algorithm is an original implementation from its primary publication, embedded-safe by construction (no heap, no exceptions, float32-ready, Cortex-M7 verified in CI), and cross-validated against FilterPy, PyBaMM and ahrs.
-
-**Repo:** [estkit](https://github.com/anilram30/estkit)  ·  **Site:** [anilram30.github.io/estkit](https://anilram30.github.io/estkit/)  ·  **Report:** 958 pages, one chapter per estimator
-
-`86 estimators · 12 families · 2 truth plants · 12 fault scenarios · ~9,000 benchmark runs · 0 runtime dependencies`
-
-Code Apache 2.0, report and data CC BY 4.0.
 
 ---
 
