@@ -10,7 +10,7 @@ Looking for a **Werkstudent** position in control, estimation or embedded system
 
 ## estkit
 
-A header-only C++17 library and benchmark of **86 state estimators and observers** for battery-management systems in electric aircraft, with aerospace attitude-estimation heritage. Every algorithm is an original implementation from its primary publication, embedded-safe by construction (no heap, no exceptions, float32-ready, Cortex-M7 verified in CI), and cross-validated against FilterPy, PyBaMM and ahrs.
+A header-only C++17 library and benchmark of multi purpose **86 state estimators and observers**. Implemented for battery-management systems in electric aircraft, with aerospace attitude-estimation heritage. Every algorithm is an original implementation from its primary publication, embedded-safe by construction (no heap, no exceptions, float32-ready, Cortex-M7 verified in CI), and cross-validated against FilterPy, PyBaMM and ahrs.
 
 **Repo:** [estkit](https://github.com/anilram30/estkit)  ·  **Site:** [anilram30.github.io/estkit](https://anilram30.github.io/estkit/)  ·  **Report:** 958 pages, one chapter per estimator
 
