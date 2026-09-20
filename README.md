@@ -65,4 +65,4 @@ _Repositories will be published as each project reaches a shareable state._
 
 ---
 
-_The projects above are built with AI assistance; the engineering decisions, validation strategy and limitations stated in each repository are the substance of the work._
+_The engineering decisions, algorithm and system design, validation strategy, analysis and stated limitations are my own._
