@@ -43,6 +43,7 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 - **Distributed MPC + MHE drone clustering** — cooperative control across a heterogeneous UAV cluster.
 - **ANYmal walking-simulation framework** — joint NMPC + NMHE for quadrupedal locomotion.
 - **Real-time-iteration NMPC and NMHE solvers** — ultra-fast solvers with state and input constraints, targeted at embedded control.
+* **AEROFORGE — Autonomous aerial construction** — heterogeneous UAVs cooperatively assemble and verify a bridge using distributed estimation and real-time NMPC under cable, contact, wind, and actuator constraints.
 
 _Repositories will be published as each project reaches a shareable state._
 
