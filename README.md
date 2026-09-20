@@ -1,7 +1,7 @@
 # Hi, I'm Sreeram Anil
 
 Master's-thesis control engineer at **FAU Erlangen-Nürnberg**, based in Bavaria. Writing my thesis on SLQP-MPC for a Quanser RT2 linear inverted pendulum.
-Looking for a **Werkstudent** position in control, estimation or embedded systems.
+Looking for a **Werkstudent** position in control, estimation, signal processing, robotics or embedded systems.
 
 📍 Nürnberg, Germany  ·  📧 [sreeramanil30@gmail.com](mailto:sreeramanil30@gmail.com)
 
