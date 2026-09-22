@@ -20,6 +20,16 @@ Code Apache 2.0, report and data CC BY 4.0.
 
 ---
 
+## Apollo circumlunar navigation
+
+The **first Kalman filter to fly** — NASA TR R-135 (Smith, Schmidt & McGee, 1962) — reconstructed in MATLAB from the original documents and flown over a complete Earth → Moon → Earth ballistic free-return mission. A genuine figure-8 trajectory targeted in the full Earth(J2) + Moon + Sun field, optical-angle sightings with the horizon-altitude bias measured on Apollo 13's own P23 data, and both variants of the filter: the nominal-linearized form as first published, and the estimate-linearized form R-135 already recommended and history later named the EKF.
+
+**Repo:** [Apollo-Trajectory-Recreation](https://github.com/anilram30/Apollo-Trajectory-Recreation)  ·  **Report:** 13-page narrative through the primary NASA sources
+
+`5.72-day free-return mission · 10-state augmented filter · 1,986 sextant sightings · 31,000 km open-loop miss → 1.4 km EKF error · 2 MATLAB files, no toolboxes`
+
+---
+
 ## HF cable toolchain
 
 Seven engineering packages that take a high-frequency cable from raw network-analyser measurement to a predicted automotive-Ethernet link. Each package has its own test suite, command-line interface, technical report and CI.
