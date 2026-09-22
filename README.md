@@ -69,8 +69,8 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
   Full 6-DOF rigid-body missile simulation using position, velocity, attitude/quaternion, and body-rate states, with aerodynamic forces/moments, thrust, gravity, control-surface effects, and guidance.
 - **Hexacopter Simulation & Control in a Mars Rover** — ROS 2
   Six-rotor UAV simulation implemented in ROS 2, covering vehicle dynamics, attitude/position control, simulation integration, and the foundation for future sensor-fusion and autonomous-flight work.
--**Vehicle control basics lane assist using PID + MPC** in python (Udemy-updating)
--**Vehicle suspension control** - Nonlinear system linearization, State-space and Laplace analysis, Stability and pole analysis, Modal analysis, MIMO control, Pole placement, Vehicle suspension controller design,
+- **Vehicle control basics lane assist using PID + MPC** in python (Udemy-updating)
+- **Vehicle suspension control** - Nonlinear system linearization, State-space and Laplace analysis, Stability and pole analysis, Modal analysis, MIMO control, Pole placement, Vehicle suspension controller design,
   PID + LQR + Resonance analysis, Advanced vehicle suspension control using PID, LQR, resonance analysis, tuning with AI, and dominant pole approximation. (Udemy-updating)
 
 - **Embedded validation** — I am also validating selected control, estimation and robotics projects on **Raspberry Pi**, moving algorithms from simulation to real embedded hardware and measuring their computational performance and real-time behaviour.
