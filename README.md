@@ -67,7 +67,7 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
   3-DOF missile dynamics and guidance simulation covering trajectory propagation, aerodynamic effects, guidance laws, and interception scenarios.
 - **Missile Guidance & Simulation** — 6-DOF
   Full 6-DOF rigid-body missile simulation using position, velocity, attitude/quaternion, and body-rate states, with aerodynamic forces/moments, thrust, gravity, control-surface effects, and guidance.
-- **Hexacopter Simulation & Control in a Mars Rover** — ROS 2
+- **Hexacopter Simulation & Control in a Mars Rover mission** — ROS 2
   Six-rotor UAV simulation implemented in ROS 2, covering vehicle dynamics, attitude/position control, simulation integration, and the foundation for future sensor-fusion and autonomous-flight work.
 - **Vehicle control basics lane assist using PID + MPC** in python (Udemy-updating)
 - **Vehicle suspension control** - Nonlinear system linearization, State-space and Laplace analysis, Stability and pole analysis, Modal analysis, MIMO control, Pole placement, Vehicle suspension controller design,
