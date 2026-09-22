@@ -26,9 +26,10 @@ Distributed model-predictive control and moving-horizon estimation for a heterog
 
 **Repo:** [uav-cluster-dmpc-dmhe](https://github.com/anilram30/uav-cluster-dmpc-dmhe)  ·  **Site:** [anilram30.github.io/uav-cluster-dmpc-dmhe](https://anilram30.github.io/uav-cluster-dmpc-dmhe/)  ·  **3D replay:** [SwarmScope](https://anilram30.github.io/uav-cluster-dmpc-dmhe/swarmscope.html)  ·  **Report:** 57 pages, first-principles derivations of both airframes
 
-`6 hexacopters + 4 fixed-wing aircraft · 13-state quaternion plants · 210-run Monte-Carlo campaign, 0 divergences · dead-reckoning 1.26 m → DMHE 0.088 m · min separation 1.55 m against 1.4 m barrier · compiled solvers in-loop ≈76 µs / agent / cycle`
+Code Apache 2.0, report and data CC BY 4.0.
 
-Code MIT, report text and figures © 2026 Sreeram Anil.
+---
+`6 hexacopters + 4 fixed-wing aircraft · 13-state quaternion plants · 210-run Monte-Carlo campaign, 0 divergences · dead-reckoning 1.26 m → DMHE 0.088 m · min separation 1.55 m against 1.4 m barrier · compiled solvers in-loop ≈76 µs / agent / cycle`
 
 ## Apollo circumlunar navigation
 
@@ -37,6 +38,8 @@ The **first Kalman filter to fly** — NASA TR R-135 (Smith, Schmidt & McGee, 19
 **Repo:** [Apollo-Trajectory-Recreation](https://github.com/anilram30/Apollo-Trajectory-Recreation)  ·  **Report:** 13-page narrative through the primary NASA sources
 
 `5.72-day free-return mission · 10-state augmented filter · 1,986 sextant sightings · 31,000 km open-loop miss → 1.4 km EKF error · 2 MATLAB files`
+
+Code Apache 2.0, report and data CC BY 4.0.
 
 ---
 
