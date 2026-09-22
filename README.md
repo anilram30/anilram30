@@ -20,17 +20,6 @@ Code Apache 2.0, report and data CC BY 4.0.
 
 ---
 
-## UAV cluster — distributed MPC and MHE
-
-Distributed model-predictive control and moving-horizon estimation for a heterogeneous UAV cluster — quaternion hexacopters and 6-DOF fixed-wing aircraft, each agent running its own constrained real-time estimator and controller, coordinating over a communication graph with no central node. Six hexacopters hold formation through a ten-second GNSS blackout: the distributed estimator fuses relative measurements to GNSS-good neighbours and pins each denied agent to within nine centimetres of truth while dead reckoning drifts past a metre. The **anchor-coverage** condition on the communication graph is identified as the structural limit, and a leveled multi-hop anchoring extension recovers the broken case with the safety margin restored. The report derives both airframes from first principles; the compiled real-time solvers substituted into the closed loop reproduce the reference behaviour without change.
-
-**Repo:** [uav-cluster-dmpc-dmhe](https://github.com/anilram30/uav-cluster-dmpc-dmhe)  ·  **Site:** [anilram30.github.io/uav-cluster-dmpc-dmhe](https://anilram30.github.io/uav-cluster-dmpc-dmhe/)  ·  **3D replay:** [SwarmScope](https://anilram30.github.io/uav-cluster-dmpc-dmhe/swarmscope.html)  ·  **Report:** 57 pages, first-principles derivations of both airframes
-
-Code Apache 2.0, report and data CC BY 4.0.
-
----
-`6 hexacopters + 4 fixed-wing aircraft · 13-state quaternion plants · 210-run Monte-Carlo campaign, 0 divergences · dead-reckoning 1.26 m → DMHE 0.088 m · min separation 1.55 m against 1.4 m barrier · compiled solvers in-loop ≈76 µs / agent / cycle`
-
 ## Apollo circumlunar navigation
 
 The **first Kalman filter to fly** — NASA TR R-135 (Smith, Schmidt & McGee, 1962) — reconstructed in MATLAB from the original documents and flown over a complete Earth → Moon → Earth ballistic free-return mission. A genuine figure-8 trajectory targeted in the full Earth(J2) + Moon + Sun field, optical-angle sightings with the horizon-altitude bias measured on Apollo 13's own P23 data, and both variants of the filter: the nominal-linearized form as first published, and the estimate-linearized form R-135 already recommended and history later named the EKF.
@@ -38,6 +27,18 @@ The **first Kalman filter to fly** — NASA TR R-135 (Smith, Schmidt & McGee, 19
 **Repo:** [Apollo-Trajectory-Recreation](https://github.com/anilram30/Apollo-Trajectory-Recreation)  ·  **Report:** 13-page narrative through the primary NASA sources
 
 `5.72-day free-return mission · 10-state augmented filter · 1,986 sextant sightings · 31,000 km open-loop miss → 1.4 km EKF error · 2 MATLAB files`
+
+Code Apache 2.0, report and data CC BY 4.0.
+
+---
+
+## UAV cluster — distributed MPC and MHE
+
+Distributed model-predictive control and moving-horizon estimation for a heterogeneous UAV cluster — quaternion hexacopters and 6-DOF fixed-wing aircraft, each agent running its own constrained real-time estimator and controller, coordinating over a communication graph with no central node. Six hexacopters hold formation through a ten-second GNSS blackout: the distributed estimator fuses relative measurements to GNSS-good neighbours and pins each denied agent to within nine centimetres of truth while dead reckoning drifts past a metre. The **anchor-coverage** condition on the communication graph is identified as the structural limit, and a leveled multi-hop anchoring extension recovers the broken case with the safety margin restored. The report derives both airframes from first principles; the compiled real-time solvers substituted into the closed loop reproduce the reference behaviour without change.
+
+**Repo:** [uav-cluster-dmpc-dmhe](https://github.com/anilram30/uav-cluster-dmpc-dmhe)  ·  **Site:** [anilram30.github.io/uav-cluster-dmpc-dmhe](https://anilram30.github.io/uav-cluster-dmpc-dmhe/)  ·  **3D replay:** [SwarmScope](https://anilram30.github.io/uav-cluster-dmpc-dmhe/swarmscope.html)  ·  **Report:** 57 pages, first-principles derivations of both airframes
+
+`6 hexacopters + 4 fixed-wing aircraft · 13-state quaternion plants · 210-run Monte-Carlo campaign, 0 divergences · dead-reckoning 1.26 m → DMHE 0.088 m · min separation 1.55 m against 1.4 m barrier · compiled solvers in-loop ≈76 µs / agent / cycle`
 
 Code Apache 2.0, report and data CC BY 4.0.
 
