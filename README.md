@@ -75,7 +75,7 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 
 - **Embedded validation** — I am also validating selected control, estimation and robotics projects on **Raspberry Pi**, moving algorithms from simulation to real embedded hardware and measuring their computational performance and real-time behaviour.
 
-_ Repositories will be published as each project reaches a shareable state._
+_Repositories will be published as each project reaches a shareable state._
 
 ---
 
