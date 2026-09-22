@@ -26,7 +26,7 @@ The **first Kalman filter to fly** — NASA TR R-135 (Smith, Schmidt & McGee, 19
 
 **Repo:** [Apollo-Trajectory-Recreation](https://github.com/anilram30/Apollo-Trajectory-Recreation)  ·  **Report:** 13-page narrative through the primary NASA sources
 
-`5.72-day free-return mission · 10-state augmented filter · 1,986 sextant sightings · 31,000 km open-loop miss → 1.4 km EKF error · 2 MATLAB files, no toolboxes`
+`5.72-day free-return mission · 10-state augmented filter · 1,986 sextant sightings · 31,000 km open-loop miss → 1.4 km EKF error · 2 MATLAB files`
 
 ---
 
