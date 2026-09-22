@@ -73,7 +73,7 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 -**Vehicle suspension control** - Nonlinear system linearization, State-space and Laplace analysis, Stability and pole analysis, Modal analysis, MIMO control, Pole placement, Vehicle suspension controller design,
   PID + LQR + Resonance analysis, Advanced vehicle suspension control using PID, LQR, resonance analysis, tuning with AI, and dominant pole approximation. (Udemy-updating)
 
-# **Embedded validation** — I am also validating selected control, estimation and robotics projects on **Raspberry Pi**, moving algorithms from simulation to real embedded hardware and measuring their computational performance and real-time behaviour.
+- **Embedded validation** — I am also validating selected control, estimation and robotics projects on **Raspberry Pi**, moving algorithms from simulation to real embedded hardware and measuring their computational performance and real-time behaviour.
 
 _ Repositories will be published as each project reaches a shareable state._
 
