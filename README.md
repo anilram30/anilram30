@@ -68,7 +68,7 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 
 ---
 
-ANYmal-C — Unified framework walking control by NMPC + moving-horizon estimation
+** ANYmal-C — Unified framework walking control by NMPC + moving-horizon estimation**
 
 (Repo private for now, working on a clonable ACADOS version backend that can run simulations as an alternative)
 
