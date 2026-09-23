@@ -43,6 +43,7 @@ Distributed model-predictive control and moving-horizon estimation for a heterog
 `6 hexacopters + 4 fixed-wing aircraft · 13-state quaternion plants · 210-run Monte-Carlo campaign, 0 divergences · dead-reckoning 1.26 m → DMHE 0.088 m · min separation 1.55 m against 1.4 m barrier · compiled solvers in-loop ≈76 µs / agent / cycle`
 
 Code Apache 2.0, report and data CC BY 4.0.
+
 ---
 
 * **ANYmal-C — unified SRBD NMPC + moving-horizon estimation**
@@ -53,7 +54,7 @@ Output-feedback trotting control of a 45 kg ANYmal-C in MuJoCo, using a nonlinea
 
 `45 kg ANYmal-C · 18-DoF MuJoCo plant · 12-state SRBD · 18-state NMHE with 6-state disturbance wrench · NMPC N=50 at 100 Hz · NMHE M=20 at 100 Hz · 40 N push estimated at 39.5 N · lateral drift 0.15 m vs 0.74 m without force feed-forward · 5/5 noise seeds · stable to 2× nominal sensor noise · NMPC 56 µs feedback · NMHE 37 µs feedback`
 
-## Code Apache 2.0; report and results are included in the repository.
+Code Apache 2.0; report and results are included in the repository.
 
 ---
 
