@@ -46,7 +46,7 @@ Code Apache 2.0, report and data CC BY 4.0.
 
 ---
 
-* **ANYmal-C — unified SRBD NMPC + moving-horizon estimation**
+## ANYmal-C — unified SRBD NMPC + moving-horizon estimation
 
 Output-feedback trotting control of a 45 kg ANYmal-C in MuJoCo, using a nonlinear model-predictive controller and nonlinear moving-horizon estimator that share one single-rigid-body model, one symbolic source and one design language. The estimator reconstructs the base state and an external disturbance wrench from proprioception only — IMU, leg kinematics and joint torques — while the controller plans ground reaction forces inside friction cones over a half-second horizon at 100 Hz and feeds the estimated disturbance forward. The robot ramps to a trot, absorbs a 40 N lateral push and turns, with no ground-truth state anywhere in the loop. The report derives the rigid-body model, gait, footholds and measurement model from first principles; the compiled real-time solvers substituted into the closed loop reproduce the reference behaviour without change.
 
