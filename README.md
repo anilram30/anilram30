@@ -68,12 +68,11 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 
 ---
 
-## ANYmal-C — Unified framework walking control by NMPC + moving-horizon estimation
+ANYmal-C — Unified framework walking control by NMPC + moving-horizon estimation
 
 (Repo private for now, working on a clonable ACADOS version backend that can run simulations as an alternative)
-A unified single-rigid-body framework where a nonlinear model-predictive controller and a nonlinear moving-horizon estimator share one reduced-order model, one symbolic source, and one design language, closing an output-feedback trot on a full-body ANYmal-C simulation in MuJoCo. The estimator reconstructs the base state and an external disturbance wrench from proprioception alone — IMU and the leg kinematics of the settled stance feet — while the controller plans ground reaction forces inside friction cones over half a second of gait at 100 Hz and feeds the estimated disturbance forward. The robot ramps to a trot, absorbs a lateral push, and turns, with no ground-truth state anywhere in the loop. The report derives the model, gait, footholds and measurement model from first principles; the compiled real-time solvers substituted into the closed loop reproduce the reference behaviour without change.
 
-**Repo:** [anymal-srbd-mpc-mhe](https://github.com/anilram30/anymal-srbd-mpc-mhe)
+A unified single-rigid-body framework where a nonlinear model-predictive controller and a nonlinear moving-horizon estimator share one reduced-order model, one symbolic source, and one design language, closing an output-feedback trot on a full-body ANYmal-C simulation in MuJoCo. The estimator reconstructs the base state and an external disturbance wrench from proprioception alone — IMU and the leg kinematics of the settled stance feet — while the controller plans ground reaction forces inside friction cones over half a second of gait at 100 Hz and feeds the estimated disturbance forward. The robot ramps to a trot, absorbs a lateral push, and turns, with no ground-truth state anywhere in the loop. The report derives the model, gait, footholds and measurement model from first principles; the compiled real-time solvers substituted into the closed loop reproduce the reference behaviour without change.
 
 - **Real-time-iteration NMPC and NMHE solvers** — ultra-fast solvers with state and input constraints, targeted at embedded control.
 * **AEROFORGE — Autonomous aerial construction** — heterogeneous UAVs cooperatively assemble and verify a bridge using distributed estimation and real-time NMPC under cable, contact, wind, and actuator constraints.
