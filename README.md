@@ -66,8 +66,7 @@ Code Apache 2.0, report and data CC BY 4.0.
 
 Output-feedback trotting control of a 45 kg ANYmal-C in MuJoCo, using a nonlinear model-predictive controller and nonlinear moving-horizon estimator that share one single-rigid-body model, one symbolic source and one design language. The estimator reconstructs the base state and an external disturbance wrench from proprioception only — IMU, leg kinematics and joint torques — while the controller plans ground reaction forces inside friction cones over a half-second horizon at 100 Hz and feeds the estimated disturbance forward. The robot ramps to a trot, absorbs a 40 N lateral push and turns, with no ground-truth state anywhere in the loop. The report derives the rigid-body model, gait, footholds and measurement model from first principles; the compiled real-time solvers substituted into the closed loop reproduce the reference behaviour without change.
 
-**Animation:** [`anymal_walk_hd.mp4`](https://github.com/anilram30/anymal-framework/blob/main/media/anymal_walk_hd.mp4) ·
-**Report:** [`report.pdf`](https://github.com/anilram30/anymal-framework/blob/main/docs/report.pdf)
+
 **Repo:** [ANYmal-C framework](https://github.com/anilram30/anymal-srbd-mpc-mhe) ·
 **Site:** [anilram30.github.io/anymal-srbd-mpc-mhe](https://anilram30.github.io/anymal-srbd-mpc-mhe/) ·
 
