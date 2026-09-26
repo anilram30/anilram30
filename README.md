@@ -98,8 +98,8 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 
 
 ---
-- **Real-time-iteration NMPC and NMHE solvers** — ultra-fast solvers with state and input constraints, targeted at embedded control.
-* **AEROFORGE — Autonomous aerial construction** — heterogeneous UAVs cooperatively assemble and verify a bridge using distributed estimation and real-time NMPC under cable, contact, wind, and actuator constraints.
+- **Real-time-iteration NMPC and NMHE solvers** — ultra-fast solvers with state and input constraints, targeted at embedded control.  (completed, will not be published, pending research)
+* **AEROFORGE — Autonomous aerial construction** — heterogeneous UAVs cooperatively assemble and verify a bridge using distributed estimation and real-time NMPC under cable, contact, wind, and actuator constraints. (completed, will not be published, pending research)
 - **Missile Guidance & Simulation** — 3-DOF
   3-DOF missile dynamics and guidance simulation covering trajectory propagation, aerodynamic effects, guidance laws, and interception scenarios.
 - **Missile Guidance & Simulation** — 6-DOF
@@ -112,7 +112,7 @@ Seven engineering packages that take a high-frequency cable from raw network-ana
 
 - **Embedded validation** — I am also validating selected control, estimation and robotics projects on **Raspberry Pi**, moving algorithms from simulation to real embedded hardware and measuring their computational performance and real-time behaviour.
 
-_Repositories will be published as each project reaches a shareable state._
+_Repositories will be published as each project reaches a shareable state/ after publishing._
 
 ---
 
