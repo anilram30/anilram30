@@ -32,6 +32,12 @@ The **first Kalman filter to fly** — NASA TR R-135 (Smith, Schmidt & McGee, 19
 
 Code Apache 2.0, report and data CC BY 4.0.
 
+
+
+The projects below use real-time solvers developed as part of ongoing research extending my Master’s thesis.
+
+The repositories and accompanying reports are public versions intended to demonstrate the overall system architecture, implementation workflow, and experimental results. Selected implementation details of the underlying algorithms are intentionally omitted, as the research is still ongoing.
+
 ---
 
 ## UAV cluster — distributed MPC and MHE
